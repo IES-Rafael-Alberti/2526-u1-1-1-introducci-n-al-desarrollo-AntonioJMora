@@ -58,14 +58,24 @@ El objetivo de la actividad es evaluar la relación entre el software y el hardw
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+Lo que he hecho ha sido crear los programas pedidos en el editor de nano, aunque para los programas de C y de JAVA me he tenido que ayudar de ChatGPT porque no tenia ni idea. La ejecución de los códigos está en las capturas adjuntadas en la tarea.
 
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
+Los archivos se encuentran aquí:
+- [programa.py](programa.py)
+- [programa.c](programa.c)
+- [programa.java](programa.java)
 
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
 - **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+- Ejecución de Python
+[Ejecución de python](Ejecución%20de%20programa%20python.png)
+-Ejecución de C 
+[Ejecución de c](Ejecución%20de%20programa%20c.png)
+- Ejecución de Java 
+[Ejecución de java](Ejecución%20de%20programa%20java.png)
 
 ### Resultados de Pruebas
 [Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
@@ -89,3 +99,6 @@ El objetivo de la actividad es evaluar la relación entre el software y el hardw
    - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
 4. **Compilación y Ejecución:**
    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+
+
+[def]: Ejecuci
