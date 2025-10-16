@@ -141,28 +141,29 @@ Al hacer la practica he visto como trabaja cada cosa, aunque sea más tedioso te
    - Java: se clasifica como un código intermedio ejecutado por una máquina virtual, fue diseñado para lograr la portabilidad entre sistemas. Es de alto nivel de abstracción ya que está diseñado para ser fácil de entender para los humanos. Está orientado a objetos, que son instancias de clases que almacenan datos y comportamientos, es útil cuando se desea modelar elementos en la vida real y es utilizado en el desarrollo empresarial.
 
 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
-   1.Para cada uno de los tres lenguajes (interpretado, compilado y en máquina virtual), describe las herramientas que utilizaste en el proceso de desarrollo:
-      - Python:
-            - Sistema operativo: Windows
-            - Editor de texto o IDE: nano
-            - Compilador o intérprete: desde python
-            - Depurador: no se ha usado.
-            - Sistema de gestión de versiones: git para guardar los cambios
-            - Otras herramientas: git bash y el cmd para la ejecución del código.
-      - C:
-            - Sistema operativo: Windows
-            - Editor de texto o IDE: nano
-            - Compilador o intérprete: desde compilador online
-            - Depurador: no se ha usado.
-            - Sistema de gestión de versiones: git para guardar los cambios
-            - Otras herramientas: gitbash para el nano
-      - Java:
-            - Sistema operativo: Windows
-            - Editor de texto o IDE: nano
-            - Compilador o intérprete: desde compilador online
-            - Depurador: no se ha usado.
-            - Sistema de gestión de versiones: git para guardar los cambios
-            - Otras herramientas: gitbash para el nano
+   1. Para cada uno de los tres lenguajes (interpretado, compilado y en máquina virtual), describe las herramientas que utilizaste en el proceso de desarrollo:
+   - Python:
+       - Sistema operativo: Windows
+       - Editor de texto o IDE: nano
+       - Compilador o intérprete: desde python
+       - Depurador: no se ha usado.
+       - Sistema de gestión de versiones: git para guardar los cambios
+       - Otras herramientas: git bash y el cmd para la ejecución del código.
+   - C:
+       - Sistema operativo: Windows
+       - Editor de texto o IDE: nano
+       - Compilador o intérprete: desde compilador online
+       - Depurador: no se ha usado.
+       - Sistema de gestión de versiones: git para guardar los cambios
+       - Otras herramientas: gitbash para el nano
+   - Java:
+       - Sistema operativo: Windows
+       - Editor de texto o IDE: nano
+       - Compilador o intérprete: desde compilador online
+       - Depurador: no se ha usado.
+       - Sistema de gestión de versiones: git para guardar los cambios
+       - Otras herramientas: gitbash para el nano
+
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
