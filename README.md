@@ -9,21 +9,22 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 ---
 
-# Título de la Actividad
+# Ponlo en practica - Evaluable
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** P1.2
+- **Módulo:** EDES
+- **Unidad de Trabajo:** P1.2
+- **Fecha de Creación:** 15/10/2025
+- **Fecha de Entrega:** 16/10/2025
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Antonio Jesús Mora Cabeza
+  - **Correo electrónico:** nmorcab2106@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** AJMC
 
 ## Descripción de la Actividad
 [Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+El objetivo de la actividad es evaluar la relación entre el software y el hardware, clasificar lenguajes de programación y comprender los diferentes procesos de ejecución
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
