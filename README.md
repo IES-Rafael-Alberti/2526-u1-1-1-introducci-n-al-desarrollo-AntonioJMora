@@ -61,34 +61,41 @@ El objetivo de la actividad es evaluar la relación entre el software y el hardw
 Lo que he hecho ha sido crear los programas pedidos en el editor de nano, aunque para los programas de C y de JAVA me he tenido que ayudar de ChatGPT porque no tenia ni idea. La ejecución de los códigos está en las capturas adjuntadas en la tarea.
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
 Los archivos se encuentran aquí:
 - [programa.py](programa.py)
 - [programa.c](programa.c)
 - [programa.java](programa.java)
 
 ### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+Lo que haremos es que en la entrada se pedirán tanto el nombre como la fecha de nacimiento
+   - Entrada:
+      ¿Cuál es su nombre? Antonio
+      ¿Cuál es su año de nacimiento? 2006
+Y la salida lo que hará será calcular los años que tiene restandole a 2025 el año en que nació
+   - Salida: 
+      Hola Antonio, tienes 19 años. Este lenguaje está hecho en el lenguaje de programación: Python.
+### Resultados de Pruebas
 - Ejecución de Python
 [Ejecución de python](Ejecución%20de%20programa%20python.png)
--Ejecución de C 
+- Ejecución de C 
 [Ejecución de c](Ejecución%20de%20programa%20c.png)
 - Ejecución de Java 
 [Ejecución de java](Ejecución%20de%20programa%20java.png)
-
-### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
 
 ## Documentación Adicional
 - **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
 - **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
 
 ## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
+Al hacer la practica he visto como trabaja cada cosa, aunque sea más tedioso tener que compilar todo, puede llegar a ser más rápido ya que al ejecutarlo ya sabe lo que tiene que hacer, y no tiene que ir leyendo línea a línea, aunque es más complicado de probar ya que cada vez que lo quieras probar hay que compilarlo, cosa que en lenguajes como python no hace falta hacer.
 
 ## Referencias y Fuentes
 [Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+- Para cosas de java: [Java](https://revilofe.github.io/section3/u01/teoria/EDES-U1.3.-CodigoIntermedio/)
+- Para cosas de Python y C: [Lenguajes](https://revilofe.github.io/section3/u01/teoria/EDES-U1.5.-Lenguajes/#212-lenguajes-interpretados)
+- ChatGPT para los lenguajes que no sabía.
+
+### Preguntas para Evaluar cada Criterio de evaluacion
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
