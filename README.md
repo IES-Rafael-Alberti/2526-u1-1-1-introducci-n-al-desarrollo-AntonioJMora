@@ -110,30 +110,30 @@ Al hacer la practica he visto como trabaja cada cosa, aunque sea más tedioso te
 
 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
    1. Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos?
-      El proceso comienza con el código fuente, en un lenguaje que no puede ser ejecutado directamente por la máquina ya que el ordenador solo entiende el lenguaje de máquina. El compilador es la herramienta que pasa el código fuente y lo pása a código objeto (que contiene las instrucciones traducidas al lenguaje de mñaquina pero aún está incompleto.). Y una vez que el código objeto ha sido generado, viene el enlazador que es una herramienta que toma los archivos y los une en un solo archivo. El resultado final es el código ejecutable
-      Al no haberlo compilado en mi propio ordenador, no sé si se generaron archivos intermedios.
+         El proceso comienza con el código fuente, en un lenguaje que no puede ser ejecutado directamente por la máquina ya que el ordenador solo entiende el lenguaje de máquina. El compilador es la herramienta que pasa el código fuente y lo pása a código objeto (que contiene las instrucciones traducidas al lenguaje de mñaquina pero aún está incompleto.). Y una vez que el código objeto ha sido generado, viene el enlazador que es una herramienta que toma los archivos y los une en un solo archivo. El resultado final es el código ejecutable
+         Al no haberlo compilado en mi propio ordenador, no sé si se generaron archivos intermedios.
    
    2. Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.
-      Se ejecuta de manera directa a través del intérprete, sin requerir la compilacion  que de el archivo binario o el código objeto. El intérprete procesa el código fuente línea a línea y lo ejecuta al instante.
+         Se ejecuta de manera directa a través del intérprete, sin requerir la compilacion  que de el archivo binario o el código objeto. El intérprete procesa el código fuente línea a línea y lo ejecuta al instante.
 
    3. Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
-      Genera un código intermedio para lograr la portabilidad y ejecución en diversas plataformas.El código fuente se compila con el compilador de java, creando un código intermedio. El bytecode se almacena en archivos con la extensión .class. Para que el programa se ejecute se requiere la intervención de una VM que actúa de intermediario entre el bytecode y el hardware específico (como JVM)
+         Genera un código intermedio para lograr la portabilidad y ejecución en diversas plataformas.El código fuente se compila con el compilador de java, creando un código intermedio. El bytecode se almacena en archivos con la extensión .class. Para que el programa se ejecute se requiere la intervención de una VM que actúa de intermediario entre el bytecode y el hardware específico (como JVM)
 
 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales
    1.Describe el proceso de generación de código intermedio (bytecode) en el lenguaje que utilizaste que emplea una máquina virtual (por ejemplo, Java o C#).
-      Lo primero es generar el código fuente entendido que es legible para los humanos. Luego se compila, este no genera un código máquina específico para una plataforma, sino que genera el código intermedio. En caso de java ese código es el bytecode y para C# es el CIL.
+         Lo primero es generar el código fuente entendido que es legible para los humanos. Luego se compila, este no genera un código máquina específico para una plataforma, sino que genera el código intermedio. En caso de java ese código es el bytecode y para C# es el CIL.
 
    2.Explica qué rol juega la máquina virtual en la ejecución del código y cómo difiere de la ejecución directa en un sistema operativo como ocurre con los lenguajes compilados e interpretados.
-      Su rol es actuar como mediador entre el código del programa y el hardware. Permite a los lenguajes que usan el código intermedio poder tener portabilidad y seguridad. Los lenguajes compilados utilizan la compilación anticipada para generar código ejecutable directamente, haciendo un código que el procesador ejecuta directamente, sin necesidad de una VM. Además, si un programa C se compila en windows, no podrá ser ejecutado en Linux o Mac, en cambio la VM si.
+       Su rol es actuar como mediador entre el código del programa y el hardware. Permite a los lenguajes que usan el código intermedio poder tener portabilidad y seguridad. Los lenguajes compilados utilizan la compilación anticipada para generar código ejecutable directamente, haciendo un código que el procesador ejecuta directamente, sin necesidad de una VM. Además, si un programa C se compila en windows, no podrá ser ejecutado en Linux o Mac, en cambio la VM si.
 
 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación
-   1.Clasifica los tres lenguajes utilizados (interpretado, compilado y en máquina virtual) según su:
-   - Modo de ejecución (interpretado vs compilado vs máquina virtual).
-   - Nivel de abstracción (alto nivel vs bajo nivel).
-   - Paradigma de programación (imperativo, orientado a objetos, funcional,...).
-      - Python: es un lenguaje interpretado, con un alto nivel de abstracción y soporta múltilples paradigmas (imperativo, orientado a objetos, funcional)
-      - C: es un lenguaje compilado (AOT), con un bajo nivel de abstracción y tiene el paradigma de progamación imperativo.
-      - Java: es un lenguaje de programación que está compilado a bytecode y ejecutado en la JVM, tiene un alto nivel de abstracción y su paradigma es orientado a objetos.
+      1.Clasifica los tres lenguajes utilizados (interpretado, compilado y en máquina virtual) según su:
+      - Modo de ejecución (interpretado vs compilado vs máquina virtual).
+      - Nivel de abstracción (alto nivel vs bajo nivel).
+      - Paradigma de programación (imperativo, orientado a objetos, funcional,...).
+         - Python: es un lenguaje interpretado, con un alto nivel de abstracción y soporta múltilples paradigmas (imperativo, orientado a objetos, funcional)
+       - C: es un lenguaje compilado (AOT), con un bajo nivel de abstracción y tiene el paradigma de progamación imperativo.
+       - Java: es un lenguaje de programación que está compilado a bytecode y ejecutado en la JVM, tiene un alto nivel de abstracción y su paradigma es orientado a objetos.
 
    2.Explica qué características de estos lenguajes influyeron en su clasificación. Es decir, ahonde en las razones por las que cada lenguaje pertenece a una categoría específica.
    - Python: es interpretado ya que el código se ejecuta línea a línea sin necesidad de ser compilado, eso hace que sea más fácil de probar y depurar pero más lento que los lenguajes compilados. Su nivel de abstracción es alto ya que permite centrarse en la lógica del programa y no en como se manejan los registros. Soporta diferentes metodos de programación, haciendolo flexible para los distintos estilos de desarrollo.
@@ -143,26 +143,26 @@ Al hacer la practica he visto como trabaja cada cosa, aunque sea más tedioso te
 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
    1.Para cada uno de los tres lenguajes (interpretado, compilado y en máquina virtual), describe las herramientas que utilizaste en el proceso de desarrollo:
       - Python:
-         - Sistema operativo: Windows
-         - Editor de texto o IDE: nano
-         - Compilador o intérprete: desde python
-         - Depurador: no se ha usado.
-         - Sistema de gestión de versiones: git para guardar los cambios
-         - Otras herramientas: git bash y el cmd para la ejecución del código.
+            - Sistema operativo: Windows
+            - Editor de texto o IDE: nano
+            - Compilador o intérprete: desde python
+            - Depurador: no se ha usado.
+            - Sistema de gestión de versiones: git para guardar los cambios
+            - Otras herramientas: git bash y el cmd para la ejecución del código.
       - C:
-         - Sistema operativo: Windows
-         - Editor de texto o IDE: nano
-         - Compilador o intérprete: desde compilador online
-         - Depurador: no se ha usado.
-         - Sistema de gestión de versiones: git para guardar los cambios
-         - Otras herramientas: gitbash para el nano
+            - Sistema operativo: Windows
+            - Editor de texto o IDE: nano
+            - Compilador o intérprete: desde compilador online
+            - Depurador: no se ha usado.
+            - Sistema de gestión de versiones: git para guardar los cambios
+            - Otras herramientas: gitbash para el nano
       - Java:
-         - Sistema operativo: Windows
-         - Editor de texto o IDE: nano
-         - Compilador o intérprete: desde compilador online
-         - Depurador: no se ha usado.
-         - Sistema de gestión de versiones: git para guardar los cambios
-         - Otras herramientas: gitbash para el nano
+            - Sistema operativo: Windows
+            - Editor de texto o IDE: nano
+            - Compilador o intérprete: desde compilador online
+            - Depurador: no se ha usado.
+            - Sistema de gestión de versiones: git para guardar los cambios
+            - Otras herramientas: gitbash para el nano
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
