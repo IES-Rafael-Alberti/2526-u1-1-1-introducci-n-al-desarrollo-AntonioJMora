@@ -23,27 +23,37 @@ Apoyate en los siguientes recursos para realizar la práctica:
   - **Iniciales del Alumno/Grupo:** AJMC
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
-El objetivo de la actividad es evaluar la relación entre el software y el hardware, clasificar lenguajes de programación y comprender los diferentes procesos de ejecución
+El objetivo de la actividad es evaluar la relación entre el software y el hardware, clasificar lenguajes de programación y comprender los diferentes procesos de ejecución. Para ello se han creado 3 códigos diferentes en los lenguajes python (programa.py), en c (programa.c) y en el lenguaje de java (programa.java), cada uno con sus imágenes de haber sido ejecutado.
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
+   - Lenguajes utilizados
+      - Python 
+      - C
+      - Java
+   - Entorno de desarrollo: Git Bash con el editor de nano (además de un poco de ChatGPT para los códigos de C y de Java porque no tengo ni idea de esos lenguajes.), y también la terminal de Windows ya que Git se quedaba muchas veces pillado para ejecutar el código.
+   - Compiladores online, ya que encontré unos que al darle el código me los compilaban sin necesidad de instalarlos.
    - [Entorno de desarrollo o dependencias necesarias]
 
 2. **Pasos para Compilar el Código:**
    ```bash
-   [Comando para compilar el código]
+   - Python: es un lenguaje interpretado, es decir, el codigo fuente es interpretado por un programa llamado intérprete, que lo lee linea a linea y lo ejecuta al instante, sin necesidad de ser compilado.
+
+   - C: es un lenguaje compilado, es decir, el codigo fuente escrito es compilado a un código máquina de una plataforma anets de ser ejecutado. Una vez compilado, se crea un ejecutable que el procesador entiende y ejecuta directamente. Este es más rápido en ejecución ya que el código es traducido en lenguaje máquina. En caso de haber sido ejecutado en un sistema con un compilador (como puede ser GCC) el comando a ejecutar sería: gcc programa.c -o programa
+
+   - Java: Es un lenguaje intermedio, diseñado para ser entendido por humanos, este también debe de ser compilado. En caso de ser en una máquina con un compilador (como JDK), sería: javac programa.java
    ```
 
 3. **Pasos para Ejecutar el Código:**
    ```bash
-   [Comando para ejecutar la aplicación]
+   - Para python sería python programa.py
+   - Para C, en caso de ser en tu propia terminal con un compilador, sería: ./programa
+   - Para Java, en caso de ser también en tu propia máquina, sería: java Programa
    ```
 
 4. **Ejecución de Pruebas:**
    ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
+   He añadido unas capturas donde se ven como se ejecutan.
    ```
 
 ## Desarrollo de la Actividad
